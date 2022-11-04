@@ -1,4 +1,4 @@
-#################################PROBLEM:
+#PROBLEM:
 Given an array Arr of size N, print second largest element from an array.
 
 Example 1:
@@ -29,7 +29,7 @@ Constraints:
 1 ≤ N ≤ 105
 1 ≤ Arri ≤ 105
 
-#########################SOLUTION:
+#SOLUTION:
 class Solution:
   def print2largest(self,arr,n):
     k = sorted(list(set(arr)))
